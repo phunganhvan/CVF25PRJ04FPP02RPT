@@ -1,0 +1,28 @@
+# --- Python Virtual Environment ---
+# Dựa trên ảnh cấu trúc thư mục của bạn, thư mục venv cần được loại bỏ
+venv/
+ENV/
+env/
+.env
+
+# --- Byte-compiled / optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- IDEs / Editors ---
+# Các tệp cấu hình của VS Code hoặc PyCharm
+.vscode/
+.idea/
+*.swp
+
+
+# --- Streamlit ---
+# Các tệp cấu hình và log của Streamlit
+.streamlit/
+healthcheck.py
+
+# --- Operating System ---
+Thumbs.db
+.DS_Store
+
