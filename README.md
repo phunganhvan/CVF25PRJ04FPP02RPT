@@ -57,11 +57,12 @@ File `requirements.txt` bao gồm các thư viện chính:
 Từ thư mục gốc `project`:
 
 ```bash
-streamlit run Bai2/app.py
+streamlit run src/app.py
 ```
 
 Sau khi chạy lệnh trên, trình duyệt sẽ tự mở (hoặc bạn truy cập đường dẫn được in ra, thường là `http://localhost:8501`).
 
+Nếu sau khi chạy lên trên mà lỗi, cần kích hoạt môi trường ảo với lệnh venv\Scripts\activate 
 ---
 
 ## 4. Hướng dẫn sử dụng giao diện web
@@ -105,7 +106,7 @@ Nếu app báo **không tìm thấy contour dạng tài liệu**, hãy thử:
 4. Ở phần **Main file path**, điền:
 
    ```
-   Bai2/app.py
+   src/app.py
    ```
 
 5. Deploy và chờ hệ thống build xong. Sau đó bạn sẽ có một đường link web để truy cập ứng dụng.
